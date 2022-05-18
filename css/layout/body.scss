@@ -1,0 +1,123 @@
+$moderateViolet: hsl(263, 55%, 52%);
+$veryDarkGrayishBlue: hsl(217, 19%, 35%);
+$lightGrayishBlue: hsl(210, 46%, 95%);
+$white: hsl(0, 0%, 100%);
+$veryDarkBlackishBlue: hsl(219, 29%, 14%);
+$lightGrayishBlue: hsl(210, 46%, 95%);
+
+body {
+    background-color: $lightGrayishBlue;
+}
+
+
+.card {
+  box-shadow: 0 10px 10px rgb(0,0,0,0.4);
+  padding: auto;
+  margin: auto;
+  width: 26rem;
+  border-radius: 10px;
+}
+
+.cardDaniel {
+    background-image: url("../images/bg-pattern-quotation.svg");
+    background-position: 240px;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    height: 36rem;
+    background-size: 34%;
+    margin-top: 15%;
+    background-color: $moderateViolet;
+    @include media-breakpoint-up(lg){
+        width: 100%;
+        height: 20rem;
+        background-position: 315px;
+        background-position-y: top;
+        background-size: 24%;
+        padding: 0;
+        margin: 0;
+        margin-top: 15%;
+        margin-left: 10%;
+
+    }
+}
+
+.cardJonathan {
+    height: 21rem;
+    margin-top: 8%;
+    background-color: $veryDarkGrayishBlue;
+    @include media-breakpoint-up(lg){
+        height: 20rem;
+        width: 80%;
+        padding: 0;
+        margin: 0;
+       margin-top: 18%;
+       margin-left: 15%;
+    }
+}
+
+.cardJeanette {
+    height: 21rem;
+    margin-top: 8%;
+    background-color: $white;
+    @include media-breakpoint-up(lg){
+        //margin-top: 15%;
+        height: 20rem;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        //margin-top: 5%;
+       margin-left: 14%;
+    }
+}
+
+.cardPatrick {
+    height: 31rem;
+    margin-top: 8%;
+    background-color: $veryDarkBlackishBlue;
+    @include media-breakpoint-up(lg){
+        width: 100%;
+        height: 20rem;
+        padding: 0;
+        margin: 0;
+        //margin-top: 5%;
+       margin-left: 10%;
+    }
+}
+
+.cardKira {
+    height: 38rem;
+    margin-top: 8%;
+    background-color: $white;
+    @include media-breakpoint-up(lg){
+        width: 100%;
+        height: 43rem;
+        padding: 0;
+        margin: 0;
+       margin-top: 23%;
+       margin-right: 20%;
+       margin-left: -30%;
+    }
+}
+
+
+.card-img-avatar {
+    width: 40px;
+    height: 40px;
+    outline: 1px solid $lightGrayishBlue;
+    border-radius: 100px;
+}
+
+.card-img-avatarPartrick {
+    width: 40px;
+    height: 40px;
+    outline: 1px solid $moderateViolet;
+    border-radius: 100px;
+}
+
+.avatar {
+    padding-top: 8%;
+    padding-left: 10%;
+    @include media-breakpoint-up(lg){
+        padding-top: 5%;
+    }
+}

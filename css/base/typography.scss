@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+$font: 'Barlow Semi Condensed', sans-serif;
+$white: hsl(0, 0%, 100%);
+$lightGray: hsl(0, 0%, 81%);
+$lightGrayishBlue: hsl(210, 46%, 95%);
+$veryDarkBlackishBlue: hsl(219, 29%, 14%);
+$veryDarkGrayishBlue: hsl(217, 19%, 35%);
+
+body {
+    font-family: $font;
+}
+
+.name {
+    font-size: 1.2rem;
+    margin-top: 21%;
+    margin-left: 15%;
+    color: $lightGray;
+    @include media-breakpoint-up(lg){
+        font-size: 1rem;
+        margin-top: 13%;
+    }
+}
+
+.nameJeanetter {
+    font-size: 1.2rem;
+    margin-top: 21%;
+    margin-left: 10%;
+    color: $veryDarkBlackishBlue;
+    @include media-breakpoint-up(lg){
+        font-size: 1rem;
+        margin-top: 13%;
+    }
+}
+
+.verified {
+    font-size: 1rem;
+    margin-left: 15%;
+    color: $lightGray;
+    margin-top: -5%;
+    opacity: 50%;
+}
+
+.verifiedJeanetter {
+    font-size: 1rem;
+    margin-left: 10%;
+    color: $veryDarkBlackishBlue;
+    margin-top: -5%;
+    opacity: 50%;
+}
+
+.card-title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: $white;
+    margin-left: 5%;
+    margin-right: 8%;
+    @include media-breakpoint-up(lg){
+        font-size: 1.2rem;
+    }
+}
+
+.card-titleJeantter {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: $veryDarkBlackishBlue;
+    margin-left: 5%;
+    margin-right: 8%;
+    @include media-breakpoint-up(lg){
+        font-size: 1.2rem;
+    }
+}
+
+.card-text {
+    color: $lightGray;
+    opacity: 70%;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin-left: 5%;
+    margin-top: 6%;
+    margin-right: 8%;
+    @include media-breakpoint-up(lg){
+        font-size: 13px;
+        margin-top: 3%;
+    }
+}
+
+.card-textJeantter {
+    color: $veryDarkBlackishBlue;
+    opacity: 70%;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin-left: 5%;
+    margin-top: 6%;
+    margin-right: 8%;
+    @include media-breakpoint-up(lg){
+        font-size: 13px;
+        margin-top: 3%;
+    }
+}
